@@ -1,0 +1,44 @@
+/* CSS Document */
+
+#search {
+	height: 10px;
+	width: 70%;
+	float: left;
+	
+	border-bottom: 10px;
+	margin-left: 30%;
+}
+
+#button {
+	float: left;
+}
+
+#input {
+	float: left;
+	width: 60%;
+}
+
+#homeicon{
+	padding: 2px;
+}
+#wrapper {
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color:dodgerblue;
+	width: 90%;
+	height: 1000px;
+	padding: 5%;
+	margin-top: 60px;
+}
+
+#contentleft {
+height: 100%;
+	width: 70%;
+	float: left;
+}
+
+#contentRight {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
