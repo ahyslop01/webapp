@@ -1,32 +1,26 @@
 <?php
-include 'nav.php';
+include 'nav2.php';
 ?>
 <html>
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+	
+	<div id="navwrapper">
+	 <div id="nav1">
+	 	<h1> My Account </h1>
+	 </div>
+	 <div id="nav2">
+	 	<h1> Projects </h1>
+	 </div>
+	 <div id="nav3">
+		 <h1>Nav3</h1>
+	 </div>
+	</div>	
+	
+	</div>
+</body>
 
-  <body>
-   <div id="wrapper">
-   <div id="contentleft">
-   	<h1> About Project</h1>
-   </div>
-   <div id="contentRight">
-    <h1> Login </h1>
-    <form class="" action="login.php" method="post">
-      <input type="text" class="form-control" name="uid" placeholder="UserName"><br>
-      <input type="password" class="form-control" name="pwd" placeholder="Password"><br>
-      <button type="submit" class="form-control" name="button">Log in</button>
-    </form>
-    <br>
-    <br>
-    <h1> Register </h1>
-<form action="signup.php" method="post"><br>
-  <input type="text" class="form-control" name="first" placeholder="FirstName"><br>
-  <input type="text" class="form-control" name="last" placeholder="LastName"><br>
-  <input type="text" class="form-control" name="uid" placeholder="UserName"><br>
-  <input type="password" class="form-control" name="pwd" placeholder="Password"><br>
-  <button type="submit" class="form-control" name="button">SIGN UP</button>
-</form>
-
-	  </div>
-	  </div>
-  </body>
-  </html>
+</html>
