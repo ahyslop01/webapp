@@ -22,7 +22,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="#">Logo</a></div>
+      <a class="navbar-brand" href="main.php">Logo</a></div>
       
       <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
@@ -47,7 +47,7 @@
 			echo $_SESSION['username'];
 			?></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Account</a></li>
+            <li><a href="account.php">Account</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>

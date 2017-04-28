@@ -7,8 +7,12 @@ include 'connection.php';
 
  $uid = $_POST ['uid'];
  $pwd = $_POST ['pwd'];
+ $first = $_POST ['first'];
+ $last = $_POST ['last'];
 
-$_SESSION['username']= $uid;  
+$_SESSION['username']= $uid; 
+
+
 
  $sql   = "SELECT * FROM user WHERE uid='$uid' AND pwd='$pwd'";
   $result = $conn->query($sql);
